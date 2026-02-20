@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MedCare Hospital</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="j.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>MedCare Hospital</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#departments">Departments</a></li>
+        <li><a href="#doctors">Doctors</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="hero">
+    <div>
+        <h1>Your Health, Our Priority</h1>
+        <p>Advanced Healthcare With Compassion</p>
+        <button onclick="bookNow()">Book Appointment</button>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2 class="section-title">About Us</h2>
+    <p class="center-text">
+        MedCare Hospital is a multi-speciality hospital providing world-class healthcare services.
+        We focus on patient safety, advanced medical technology and experienced doctors.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2 class="section-title">Our Services</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Emergency Care</h3>
+            <p>24/7 emergency services with trained staff.</p>
+        </div>
+        <div class="card">
+            <h3>Laboratory</h3>
+            <p>Advanced diagnostic and pathology lab.</p>
+        </div>
+        <div class="card">
+            <h3>Pharmacy</h3>
+            <p>In-house pharmacy with all medicines.</p>
+        </div>
+        <div class="card">
+            <h3>Ambulance</h3>
+            <p>Quick response ambulance services.</p>
+        </div>
+    </div>
+</section>
+
+<!-- DEPARTMENTS -->
+<section id="departments">
+    <h2 class="section-title">Departments</h2>
+    <div class="cards">
+        <div class="card"><h3>Cardiology</h3></div>
+        <div class="card"><h3>Neurology</h3></div>
+        <div class="card"><h3>Orthopedics</h3></div>
+        <div class="card"><h3>Pediatrics</h3></div>
+        <div class="card"><h3>Dermatology</h3></div>
+        <div class="card"><h3>General Medicine</h3></div>
+    </div>
+</section>
+
+<!-- DOCTORS -->
+<section id="doctors">
+    <h2 class="section-title">Our Doctors</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Doctor">
+            <h3>Dr. Rajesh Kumar</h3>
+            <p>Cardiologist</p>
+        </div>
+        <div class="card">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Doctor">
+            <h3>Dr. Priya Sharma</h3>
+            <p>Neurologist</p>
+        </div>
+        <div class="card">
+            <img src="https://randomuser.me/api/portraits/men/50.jpg" alt="Doctor">
+            <h3>Dr. Amit Singh</h3>
+            <p>Orthopedic</p>
+        </div>
+        <div class="card">
+            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Doctor">
+            <h3>Dr. Sneha Verma</h3>
+            <p>Pediatrician</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="contact-box">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button class="submit" onclick="submitForm()">Send Message</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 MedCare Hospital | All Rights Reserved</p>
+</footer>
+
+<script src="l.js"></script>
+</body>
+</html>
